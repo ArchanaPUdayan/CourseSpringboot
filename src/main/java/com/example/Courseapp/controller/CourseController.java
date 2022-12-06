@@ -10,4 +10,8 @@ public class CourseController {
     public String Addpage(){
         return "Welcome to my add page";
     }
+    @PostMapping("/view")
+    public String viewpage(){
+        return "Welcome to my view page";
+    }
 }
