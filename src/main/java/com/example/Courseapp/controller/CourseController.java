@@ -14,4 +14,8 @@ public class CourseController {
     public String viewpage(){
         return "Welcome to my view page";
     }
+    @PostMapping("/add")
+    public String AddCourse(){
+        return "Course added successfully";
+    }
 }
